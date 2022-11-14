@@ -1,0 +1,4 @@
+# ninja log v5
+0	670	6901617952258031	CMakeFiles/king_test.dir/MessageStore/main.cpp.obj	92e672dea48783c0
+10	839	6901617953934608	CMakeFiles/king_test.dir/MessageStore/MessageStore.cpp.obj	b509a1eeab536a29
+840	1054	6901617956041999	king_test.exe	74d4a80b18c82c8c
