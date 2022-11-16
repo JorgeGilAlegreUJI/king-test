@@ -1,11 +1,3 @@
-//
-// Created by jorge on 15/11/2022.
-//
-
-#include "../../Exceptions/RuntimeError.h"
-#include "UMapDatabase.h"
-
-
 template<class keyType, class valueType>
 void UMapDatabase<keyType, valueType>::add(keyType key, valueType value) {
     umap[key] = value;
@@ -17,12 +9,17 @@ bool UMapDatabase<keyType, valueType>::contains(keyType key) {
 }
 
 template<class keyType, class valueType>
-valueType UMapDatabase<keyType, valueType>::get(keyType key) {
+valueType& UMapDatabase<keyType, valueType>::get(keyType key) {
     if(!contains(key)) throw RuntimeError("Key: " + key + " not found in Database");
     return umap.at(key);
 }
 
 template<class keyType, class valueType>
-int UMapDatabase<keyType, valueType>::getSize() {
+unsigned long long UMapDatabase<keyType, valueType>::getSize() {
     return umap.size();
+}
+
+template<class keyType, class valueType>
+void UMapDatabase<keyType, valueType>::Remove(keyType key) {
+    umap.erase(key);
 }

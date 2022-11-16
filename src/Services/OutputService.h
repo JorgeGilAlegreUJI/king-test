@@ -1,7 +1,3 @@
-//
-// Created by jorge on 14/11/2022.
-//
-
 #ifndef KING_TEST_OUTPUTSERVICE_H
 #define KING_TEST_OUTPUTSERVICE_H
 
@@ -15,8 +11,9 @@ private:
 public:
     explicit OutputService(const std::shared_ptr<LocalizationService>& _localizationService);
     void displayMessage(const std::string& msg,int nEndOfLines);
+    void displayLocalizedMessage(const std::string& key,int nEndOfLines);
     void displayInputError();
-
+    void displayOutputInterruption();
 };
 
 

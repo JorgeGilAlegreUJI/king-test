@@ -1,7 +1,3 @@
-//
-// Created by jorge on 15/11/2022.
-//
-
 #include "LocalizationService.h"
 
 #pragma region Constructor Functions
@@ -27,15 +23,6 @@ std::string getWelcomeMessage(){
 LocalizationService::LocalizationService() {
     currentLanguage = Null;
     buildDatabase();
-}
-
-std::string LocalizationService::getMessage(const std::string& key) {
-    if(!database.contains(key))throw RuntimeError(key + " not present in localization database");
-    return database.get(key)[currentLanguage];
-}
-
-void LocalizationService::changeLanguage(int newLanguageID) {
-    currentLanguage = static_cast<Languages>(newLanguageID);
 }
 
 void LocalizationService::buildDatabase() {
@@ -69,6 +56,26 @@ void LocalizationService::buildDatabase() {
     database.add("_OutboxFrom", getKeyValues(nullMsg,"From:","Remitente:"));
     database.add("_NoUser", getKeyValues(nullMsg,"User not found :( going back to the menu","Usuario no encontrado :( retornando al menu"));
     database.add("_OutboxTo", getKeyValues(nullMsg,"To:","Destinatario:"));
+    database.add("_MessageInput", getKeyValues(nullMsg,"Please write down your message:","Por favor escribe tu mensaje:"));
+    database.add("_MessageOK", getKeyValues(nullMsg,"Message sent! :) going back to the menu","Mensaje enviado! :) retornando al menu"));
+    database.add("_InboxOf", getKeyValues(nullMsg,"Enter name of user to receive all messages for:","Introduce el nombre del usuario para recibir sus mensajes:"));
+    database.add("_NoMessages", getKeyValues(nullMsg,"No Messages for that user :( going back to the menu...","No hay mensajes para ese usuario :( retornando al menu..."));
+    database.add("_MessagesHeader", getKeyValues(nullMsg,"===== MESSAGES LIST =====","===== LISTA DE MENSAJES ====="));
+    database.add("_MessagesFooter", getKeyValues(nullMsg,"===== END OF MESSAGES =====","===== FIN DE MENSAJES ====="));
+    database.add("_Interruption", getKeyValues("Enter any key and press return to continue... / Introduce cualquier tecla y pulsa enter para continuar...",
+                                               "Enter any key and press return to continue...",
+                                               "Introduce cualquier tecla y pulsa enter para continuar..."));
+    database.add("_Message", getKeyValues(nullMsg,"Message:","Mensaje:"));
 }
 
 #pragma  endregion
+
+std::string LocalizationService::getMessage(const std::string& key) {
+    if(!database.contains(key))throw RuntimeError(key + " not present in localization database");
+    return database.get(key)[currentLanguage];
+}
+
+void LocalizationService::changeLanguage(int newLanguageID) {
+    currentLanguage = static_cast<Languages>(newLanguageID);
+}
+

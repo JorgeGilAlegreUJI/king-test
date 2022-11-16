@@ -1,10 +1,4 @@
-//
-// Created by jorge on 14/11/2022.
-//
-
-
 #include "InputService.h"
-
 
 std::string InputService::getInput() {
     std::string str;

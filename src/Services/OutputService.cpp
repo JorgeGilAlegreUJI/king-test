@@ -1,7 +1,3 @@
-//
-// Created by jorge on 14/11/2022.
-//
-
 #include <iostream>
 #include "OutputService.h"
 
@@ -20,6 +16,13 @@ void OutputService::displayInputError() {
     displayMessage(localizationService->getMessage("_InputError"),2);
 }
 
+void OutputService::displayOutputInterruption() {
+    displayMessage(localizationService->getMessage("_Interruption"),2);
+}
+
+void OutputService::displayLocalizedMessage(const std::string &key, int nEndOfLines) {
+    displayMessage(localizationService->getMessage(key),nEndOfLines);
+}
 
 
 
