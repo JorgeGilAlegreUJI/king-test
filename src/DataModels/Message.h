@@ -1,7 +1,3 @@
-//
-// Created by jorge on 15/11/2022.
-//
-
 #ifndef KING_TEST_MESSAGE_H
 #define KING_TEST_MESSAGE_H
 
