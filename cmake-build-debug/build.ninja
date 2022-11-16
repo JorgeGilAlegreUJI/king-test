@@ -85,6 +85,18 @@ build CMakeFiles/king_test.dir/src/Databases/Interfaces/MessagesDatabase.cpp.obj
   OBJECT_DIR = CMakeFiles\king_test.dir
   OBJECT_FILE_DIR = CMakeFiles\king_test.dir\src\Databases\Interfaces
 
+build CMakeFiles/king_test.dir/src/Services/LocalizationService.cpp.obj: CXX_COMPILER__king_test_Debug C$:/Users/jorge/Documents/Jorge/king-test/src/Services/LocalizationService.cpp || cmake_object_order_depends_target_king_test
+  DEP_FILE = CMakeFiles\king_test.dir\src\Services\LocalizationService.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\king_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\king_test.dir\src\Services
+
+build CMakeFiles/king_test.dir/src/DataModels/Message.cpp.obj: CXX_COMPILER__king_test_Debug C$:/Users/jorge/Documents/Jorge/king-test/src/DataModels/Message.cpp || cmake_object_order_depends_target_king_test
+  DEP_FILE = CMakeFiles\king_test.dir\src\DataModels\Message.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\king_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\king_test.dir\src\DataModels
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target king_test
@@ -93,7 +105,7 @@ build CMakeFiles/king_test.dir/src/Databases/Interfaces/MessagesDatabase.cpp.obj
 #############################################
 # Link the executable king_test.exe
 
-build king_test.exe: CXX_EXECUTABLE_LINKER__king_test_Debug CMakeFiles/king_test.dir/src/main.cpp.obj CMakeFiles/king_test.dir/src/Controllers/ExecutionController.cpp.obj CMakeFiles/king_test.dir/src/Services/InputService.cpp.obj CMakeFiles/king_test.dir/src/Services/OutputService.cpp.obj CMakeFiles/king_test.dir/src/Databases/Interfaces/UsersDatabase.cpp.obj CMakeFiles/king_test.dir/src/Databases/Interfaces/MessagesDatabase.cpp.obj
+build king_test.exe: CXX_EXECUTABLE_LINKER__king_test_Debug CMakeFiles/king_test.dir/src/main.cpp.obj CMakeFiles/king_test.dir/src/Controllers/ExecutionController.cpp.obj CMakeFiles/king_test.dir/src/Services/InputService.cpp.obj CMakeFiles/king_test.dir/src/Services/OutputService.cpp.obj CMakeFiles/king_test.dir/src/Databases/Interfaces/UsersDatabase.cpp.obj CMakeFiles/king_test.dir/src/Databases/Interfaces/MessagesDatabase.cpp.obj CMakeFiles/king_test.dir/src/Services/LocalizationService.cpp.obj CMakeFiles/king_test.dir/src/DataModels/Message.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\king_test.dir

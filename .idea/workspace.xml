@@ -21,36 +21,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6fcad32-6c0e-4487-9e05-a34cead9dd70" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controllers/ExecutionController.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/ExecutionController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataModels/Message.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataModels/User.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Databases/Implementations/IuMapDatabase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Databases/Implementations/IuMapDatabase.tpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Databases/Interfaces/MessagesDatabase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Databases/Interfaces/MessagesDatabase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Databases/Interfaces/UsersDatabase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Databases/Interfaces/UsersDatabase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/RuntimeError.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/InputService.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/InputService.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/OutputService.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/OutputService.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataModels/Message.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Databases/Interfaces/BaseDatabase.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/LocalizationService.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/LocalizationService.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessageStore/MessageStore.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessageStore/MessageStore.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessageStore/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7073e36008ee3c519287.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8b2ac440fa4e92f5f199.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-14T20-42-55-0890.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-king_test-Debug-72600534c6d4a0f20bad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-967e0ec04a6085326644.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-15T01-36-53-0751.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-king_test-Debug-b9d801aecbe8b0ebbcd0.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/ExecutionController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/ExecutionController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/ExecutionController.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/ExecutionController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataModels/Message.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataModels/Message.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Databases/Implementations/IuMapDatabase.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Databases/Implementations/UMapDatabase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Databases/Implementations/IuMapDatabase.tpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Databases/Implementations/UMapDatabase.tpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Databases/Interfaces/MessagesDatabase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Databases/Interfaces/MessagesDatabase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Databases/Interfaces/MessagesDatabase.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Databases/Interfaces/MessagesDatabase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Databases/Interfaces/UsersDatabase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Databases/Interfaces/UsersDatabase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Databases/Interfaces/UsersDatabase.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Databases/Interfaces/UsersDatabase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/InputService.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/InputService.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/InputService.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/InputService.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/OutputService.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/OutputService.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/OutputService.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/OutputService.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +91,14 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/jorge/Documents/Jorge/king-test_Backup",
+    "last_opened_file_path": "C:/Users/jorge/Documents/Jorge/king-test",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager" selected="CMake Application.king_test">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="king_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="king_test" TARGET_NAME="king_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="king_test" RUN_TARGET_NAME="king_test">
@@ -139,6 +137,7 @@
       <workItem from="1668458475276" duration="48000" />
       <workItem from="1668458557667" duration="1319000" />
       <workItem from="1668461515938" duration="10429000" />
+      <workItem from="1668536463799" duration="21928000" />
     </task>
     <servers />
   </component>

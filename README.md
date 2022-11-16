@@ -2,7 +2,7 @@
 
 Enclosed is the C++ source code for a simple messaging service application with a command-line interface. It can perform 4 operations:
 
-1.    Add a new user
+1.    add a new user
 2.    Send a user a message
 3.    Receive all messages for a user
 4.    Quit
